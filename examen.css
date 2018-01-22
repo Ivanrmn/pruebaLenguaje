@@ -1,0 +1,117 @@
+body {
+	background-color: LightGray;
+}
+
+h1{
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+	background-color: blue;
+}
+
+h3{
+	text-align: center;
+}
+
+#header {
+	width:100%;
+	font-family:Times New Roman;
+}
+
+div.header {
+	background-color:blue;
+	height: 100%;
+	text-align:center;
+	color: blue;
+	margin-top:5px;
+	width: 98%;
+	margin-bottom: 100%;
+	}
+			
+ul, ol {
+	list-style:none;
+}
+			
+.nav > li {
+	float:left;
+}
+			
+.nav li a {
+	background-color:blue;
+	border:1px solid black;
+	color:black;
+	padding:10px 12px;
+}
+			
+.nav li a:hover {
+	background-color: blue;
+}
+			
+.nav li ul {
+	display:none;
+	position:absolute;
+	min-width:140px;
+}
+			
+.nav li:hover > ul {
+	display:block;
+}
+			
+.nav li ul li {
+	position:relative;
+}
+
+-----
+
+h2.noticia {
+	margin-right: 194px;
+}
+
+div.titulo1 {
+	left: 0;
+	background-color: blue;
+	margin-right: 194px;
+}
+
+div.noticia1 {
+	background-color:#787878;
+	width:auto;
+	height: 500px;
+	margin-right: 194px;
+}
+
+img { 	
+	float: left;
+	width: 300px;
+  	height: 300px;
+}
+
+div.derecha {
+    position: fixed;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 400px;
+	background-color:blue;
+}
+
+.listaDerecha li a {
+	background-color:blue;
+	border:1px solid white;
+	color:white;
+}
+
+div.titulo2 {
+	left: 0;
+	background-color: blue;
+	margin-right: 194px;
+}
+
+div.noticia2 {
+	background-color:#787878;
+	width:auto;
+	margin-right: 194px;
+  	height: 500px;
+}
